@@ -1,0 +1,7 @@
+{
+  "failed_step": 7,
+  "total_steps": 10,
+  "policy": "rollback",
+  "rationale": "When step 7 of 10 fails due to an unexpected exception or hazardous execution during untrusted code detonation, resuming is dangerous because the guest memory and local state are corrupted, while starting fresh incurs a full cold boot and dependency reinstall cost. Rolling back to the step 6 snapshot restores verified clean CPU, memory, and disk state within 120ms without risking dirty state propagation or wasting token and boot budget.",
+  "trace_path": "reports/failure_trace.jsonl"
+}

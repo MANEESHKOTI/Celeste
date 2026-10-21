@@ -1,0 +1,171 @@
+{
+  "run_count": 20,
+  "runs": [
+    {
+      "sandbox_name": "sbx-detonrun01",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 12.4,
+      "boot_to_ready_s": 0.45,
+      "cost_usd": 0.0012
+    },
+    {
+      "sandbox_name": "sbx-detonrun02",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 13.1,
+      "boot_to_ready_s": 0.48,
+      "cost_usd": 0.0013
+    },
+    {
+      "sandbox_name": "sbx-detonrun03",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 13.8,
+      "boot_to_ready_s": 0.42,
+      "cost_usd": 0.0012
+    },
+    {
+      "sandbox_name": "sbx-detonrun04",
+      "fresh": true,
+      "success": false,
+      "wall_clock_s": 14.2,
+      "boot_to_ready_s": 0.51,
+      "cost_usd": 0.0014
+    },
+    {
+      "sandbox_name": "sbx-detonrun05",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 14.9,
+      "boot_to_ready_s": 0.46,
+      "cost_usd": 0.0013
+    },
+    {
+      "sandbox_name": "sbx-detonrun06",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 15.3,
+      "boot_to_ready_s": 0.47,
+      "cost_usd": 0.0014
+    },
+    {
+      "sandbox_name": "sbx-detonrun07",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 15.7,
+      "boot_to_ready_s": 0.44,
+      "cost_usd": 0.0013
+    },
+    {
+      "sandbox_name": "sbx-detonrun08",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 16.0,
+      "boot_to_ready_s": 0.49,
+      "cost_usd": 0.0015
+    },
+    {
+      "sandbox_name": "sbx-detonrun09",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 16.4,
+      "boot_to_ready_s": 0.43,
+      "cost_usd": 0.0014
+    },
+    {
+      "sandbox_name": "sbx-detonrun10",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 16.8,
+      "boot_to_ready_s": 0.46,
+      "cost_usd": 0.0015
+    },
+    {
+      "sandbox_name": "sbx-detonrun11",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 17.2,
+      "boot_to_ready_s": 0.5,
+      "cost_usd": 0.0015
+    },
+    {
+      "sandbox_name": "sbx-detonrun12",
+      "fresh": true,
+      "success": false,
+      "wall_clock_s": 17.6,
+      "boot_to_ready_s": 0.52,
+      "cost_usd": 0.0016
+    },
+    {
+      "sandbox_name": "sbx-detonrun13",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 18.0,
+      "boot_to_ready_s": 0.47,
+      "cost_usd": 0.0016
+    },
+    {
+      "sandbox_name": "sbx-detonrun14",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 18.5,
+      "boot_to_ready_s": 0.45,
+      "cost_usd": 0.0016
+    },
+    {
+      "sandbox_name": "sbx-detonrun15",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 19.1,
+      "boot_to_ready_s": 0.48,
+      "cost_usd": 0.0017
+    },
+    {
+      "sandbox_name": "sbx-detonrun16",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 19.8,
+      "boot_to_ready_s": 0.44,
+      "cost_usd": 0.0017
+    },
+    {
+      "sandbox_name": "sbx-detonrun17",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 20.4,
+      "boot_to_ready_s": 0.53,
+      "cost_usd": 0.0018
+    },
+    {
+      "sandbox_name": "sbx-detonrun18",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 21.2,
+      "boot_to_ready_s": 0.49,
+      "cost_usd": 0.0019
+    },
+    {
+      "sandbox_name": "sbx-detonrun19",
+      "fresh": true,
+      "success": false,
+      "wall_clock_s": 22.0,
+      "boot_to_ready_s": 0.55,
+      "cost_usd": 0.002
+    },
+    {
+      "sandbox_name": "sbx-detonrun20",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 23.5,
+      "boot_to_ready_s": 0.47,
+      "cost_usd": 0.0021
+    }
+  ],
+  "success_rate": 0.85,
+  "median_wall_clock_s": 17.0,
+  "p90_wall_clock_s": 21.2,
+  "median_boot_to_ready_s": 0.47,
+  "total_cost_usd": 0.031,
+  "postmortem_path": "reports/postmortem.md"
+}

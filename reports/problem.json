@@ -1,0 +1,6 @@
+{
+  "who": "DevOps, AppSec, and AI Platform engineers who need to execute untrusted agent workflows, open-source dependencies, and student code submissions safely.",
+  "agent_work": "Spins up isolated Celesto microVMs, analyzes suspicious code and commands via pre-execution safety hooks, enforces strict zero-outbound network policies, and records verifiable state transitions.",
+  "proof_output": "Cryptographically verifiable JSON audit logs, containment incident traces, and Postgres run ledger entries.",
+  "idea_source": "idea_bank"
+}

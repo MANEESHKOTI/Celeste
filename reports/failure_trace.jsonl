@@ -1,0 +1,11 @@
+{"step": 1, "action": "boot_sandbox", "status": "completed", "sandbox_name": "sbx-detonrun12"}
+{"step": 2, "action": "configure_network_policy", "status": "completed", "policy": "isolated"}
+{"step": 3, "action": "install_safety_hooks", "status": "completed", "hooks": ["pre_exec", "post_exec"]}
+{"step": 4, "action": "download_untrusted_tarball", "status": "completed", "target": "/tmp/package.tar.gz"}
+{"step": 5, "action": "extract_and_static_scan", "status": "completed", "ast_findings": 0}
+{"step": 6, "action": "checkpoint_snapshot", "status": "completed", "snapshot_id": "snap-step6-clean"}
+{"step": 7, "action": "detonate_dynamic_execution", "status": "failed", "error": "ProcessCrash: SIGSEGV in untrusted C-extension"}
+{"step": 7, "event": "policy_applied", "policy": "rollback", "target_snapshot": "snap-step6-clean", "recovery_action": "restore_microvm_state"}
+{"step": 8, "action": "quarantine_faulty_extension", "status": "completed", "sandbox_state": "clean"}
+{"step": 9, "action": "generate_incident_telemetry", "status": "completed", "report": "quarantine_summary.json"}
+{"step": 10, "action": "cleanup_sandbox", "status": "completed", "sandbox_state": "deleted"}

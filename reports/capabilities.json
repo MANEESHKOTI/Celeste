@@ -1,0 +1,19 @@
+{
+  "capabilities": [
+    {
+      "id": "safety_hooks",
+      "why": "Safety hooks intercept and inspect every shell command before it reaches the guest microVM kernel, enabling proactive blocking of destructive patterns and malicious exfiltration.",
+      "evidence_path": "agent/safety_hooks.py"
+    },
+    {
+      "id": "network_policy",
+      "why": "Strict network policy isolates the microVM sandbox by severing outbound internet connectivity, preventing prompt-injected packages and scripts from leaking environment credentials or keys.",
+      "evidence_path": "agent/sandbox_manager.py"
+    },
+    {
+      "id": "snapshots",
+      "why": "MicroVM hardware snapshots allow full CPU, memory, and disk checkpointing prior to risky code execution, enabling instantaneous rollback when midway task steps fail or crash.",
+      "evidence_path": "agent/failure_recovery.py"
+    }
+  ]
+}

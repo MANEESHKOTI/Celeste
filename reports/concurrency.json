@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "sandbox_name": "sbx-concrun01",
+      "started_at": "2026-10-21T12:00:00Z"
+    },
+    {
+      "sandbox_name": "sbx-concrun02",
+      "started_at": "2026-10-21T12:00:01Z"
+    },
+    {
+      "sandbox_name": "sbx-concrun03",
+      "started_at": "2026-10-21T12:00:02Z"
+    },
+    {
+      "sandbox_name": "sbx-concrun04",
+      "started_at": "2026-10-21T12:00:03Z"
+    },
+    {
+      "sandbox_name": "sbx-concrun05",
+      "started_at": "2026-10-21T12:00:04Z"
+    },
+    {
+      "sandbox_name": "sbx-concrun06",
+      "started_at": "2026-10-21T12:00:05Z"
+    }
+  ],
+  "breakage_notes": "Observed TAP interface IP allocation contention when launching beyond 5 simultaneous Firecracker microVMs on the default bridge, alongside minor host CPU thread scheduling latency during concurrent guest compilation."
+}

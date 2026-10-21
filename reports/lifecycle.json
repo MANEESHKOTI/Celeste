@@ -1,0 +1,11 @@
+{
+  "cleanup_on_success": true,
+  "cleanup_on_failure": true,
+  "cleanup_on_interrupt": true,
+  "sandbox_names": [
+    "sbx-detonrun01",
+    "sbx-detonrun02",
+    "sbx-contain01",
+    "sbx-seeddemo1"
+  ]
+}
