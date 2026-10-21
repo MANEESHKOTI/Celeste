@@ -5,4 +5,5 @@ pydantic>=2.6.0,<3.0.0
 pydantic-settings>=2.2.0,<3.0.0
 requests>=2.31.0,<3.0.0
 pytest>=8.0.0,<9.0.0
-celesto>=0.1.0; extra == "celesto"
+# Optional runtime SDK (installed via curl -fsSL https://celesto.ai/install.sh)
+# celesto>=0.1.0
